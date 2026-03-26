@@ -1,0 +1,103 @@
+	.menu {
+            list-style: none;
+            margin: 0;
+            display: flex;
+			 background-color: #333;
+			
+        }
+
+        .menu li {
+            flex: 1;
+        }
+.menu a:hover
+{
+	 background-color: #575757;
+	
+}
+        .menu a {
+            display: block;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+.titel h1 {
+    margin: 0;
+}
+        
+		.titel a
+		{
+			
+            padding: 14px;
+            text-align: center;
+            text-decoration: none;
+			color: white;
+			display: block;
+            background-color: #333;
+		}
+		.a
+		{
+			text-decoration: none;
+			color: white;
+			
+		}
+		
+       .review-box {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.review-text {
+    max-width: 600px;
+}
+
+        .review-box h2 {
+            margin-top: 0;
+        }
+
+        .review-box p {
+            margin-bottom: 15px;
+        }
+		body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+.blok1 {
+    background-color: #222;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.blok2 {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.blok3 {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    blok3-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+
+ul {
+    padding-left: 20px;
+}
+
+
+.contact p {
+    margin: 5px 0;
+}
